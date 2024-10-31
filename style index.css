@@ -27,27 +27,44 @@ header .container {
     justify-content: space-between;
 }
 
-.container article {
-    display: inline-block;
-    flex-wrap:wrap;
+section .articles {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
-.articles img {
+.articles article {
+    width: 32%;
+}
+
+.articles article img {
     width: 100%;
 }
-.articles h2 {
+
+.articles article h2 {
     font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+.articles article a {
+    text-decoration: none;
+    background-color: #007575;
+    color: aliceblue;
+    padding: 8px;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
 }
 
 .title h2 {
     padding: 0 0 10px 0;
     font-size: 32px;
-}
-
-.articles {
-    width: 30%;
+    margin-top: 16px;
     margin-bottom: 16px;
-    
 }
 
 article p {
