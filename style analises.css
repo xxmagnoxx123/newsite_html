@@ -19,6 +19,7 @@ header h1 {
     background-color: #007575;
     color: #f2ac44;
     padding: 16px 16px;
+    font-family: sans-serif;
 }
 
 section .articles {
@@ -31,12 +32,21 @@ section .articles {
     width: 30%;
 }
 
+.articles article h2 {
+    font-family: sans-serif;
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
 .articles article h3 {
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 .articles img {
     width: 65%;
+    margin-bottom: 16px;
 }
 
 #analise {
@@ -51,4 +61,16 @@ footer {
     width: 1366px;
     margin: 0 auto;
     padding: 24px 24px;
+}
+
+footer a {
+    background-color: #007575;
+    color: #f2ac44;
+    padding: 8px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+footer a:hover {
+    text-decoration: underline;
 }
