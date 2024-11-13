@@ -4,32 +4,38 @@
     padding: 0;
 }
 
-body {
-    background-color: #0075757c;
+body  {
+    background-color: #e4e4e4;
+}
+
+body > header {
+    background-color: #007575;
 }
 
 .container {
-    width: 1366px;
+    width: 1280px;
     margin: 0 auto;
-    padding: 16px 16px;
+    padding: 16px 0px;
+}
+
+header .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 header h1 {
     font-size: 40px;
     background-color: #007575;
-    color: #f2ac44;
-    padding: 16px 16px;
-    font-family: sans-serif;
+    color: #e4e4e4;
+    font-family: "Anton SC", serif;
+    font-weight: 100;
 }
 
 header h2 {
-    font-family: sans-serif;
-}
-
-header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    font-family: "Anton SC", serif;
+    font-weight: 100;
+    color: #000000;
 }
 
 section .articles {
@@ -40,6 +46,7 @@ section .articles {
 
 .articles article {
     width: 32%;
+    color: #000000;
 }
 
 .articles article img {
@@ -49,16 +56,18 @@ section .articles {
 
 .articles article h2 {
     font-size: 24px;
-    font-family: sans-serif;
+    font-family: "Anton SC", serif;
+    font-weight: 100;
     margin-bottom: 5px;
+    color: #000000;
 }
 .articles article a {
     text-decoration: none;
     background-color: #007575;
-    color: #f2ac44;
+    color: #e4e4e4;
     padding: 8px;
-    font-family: sans-serif;
-    font-weight: bold;
+    font-family: "Roboto", serif;
+    font-weight: 500;
     display: inline-block;
     margin-top: 5px;
 }
@@ -74,7 +83,7 @@ section .articles {
     margin-bottom: 16px;
 }
 
-article p {
+.articles article p {
     text-align: justify;
     text-indent: 2ch;
     display: -webkit-box;          
@@ -82,7 +91,8 @@ article p {
     -webkit-box-orient: vertical;  
     overflow: hidden;              
     text-overflow: ellipsis;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", serif;
+    font-weight: 500;
     font-size: 17px;
 }
 
