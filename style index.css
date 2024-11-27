@@ -91,7 +91,7 @@ section .articles {
     color: #e4e4e4;
     padding: 8px;
     font-family: "Roboto", serif;
-    font-weight: 500;
+    font-weight: bold;
     display: inline-block;
     margin-top: 5px;
 }
@@ -120,6 +120,24 @@ section .articles {
     font-size: 17px;
 }
 
+#contact {
+    margin-top: 30px;
+}
+
+#contact h3 {
+    font-family: "Anton SC", serif;
+    font-weight: 100;
+    font-size: 32px;
+}
+
+#contact h4 {
+    font-family: "Anton SC", serif;
+    font-weight: 100;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
 #contact .container {
     display: block;
 }
@@ -143,3 +161,30 @@ form textarea {
     height: 180px;
 }
 
+form button {
+    background-color: #007575;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #00a5a5;
+}
+
+input:focus, textarea:focus {
+    outline-color: #007575;
+}
+
+.social-links img {
+    height: 50px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
