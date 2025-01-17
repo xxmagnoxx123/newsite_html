@@ -6,13 +6,14 @@ function validaNome(nomeCompleto){
 }
 
 form.addEventListener('submit', function(e) {
+    let formValido = false;
     e.preventDefault();
 
     const nomeCompleto = document.getElementById('nome-completo');
-    if(!validaNome(nomeCompleto.value)){
-        alert('O nome não está completo')
-    }else{
+    if (formValido) {
         alert('Está tudo certo!')
+    }else{
+        alert('O nome não está completo')
     }
 
 } )
